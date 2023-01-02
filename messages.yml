@@ -134,7 +134,7 @@ messages:
       reason: '&6[player] has been kicked by [actor] for &4[reason]'
   ban:
     player:
-      disallowed: '&6Вы забанены про причине &4[reason] \nИспользуйте пин [pin] для апелляции на \nhttps://bans.nova-network.systems/'
+      disallowed: '\n&6Вы забанены навсегда по причине &4[reason] \nИспользуйте пин &e[pin] для апелляции на \n&bhttps://bans.nova-network.systems/'
       kick: '&6You have been banned permanently for &4[reason]'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
     notify: '&6[player] has been permanently banned by [actor] for &4[reason]'
@@ -145,7 +145,7 @@ messages:
     notify: '&6[player] will be permanently banned by [actor] for &4[reason]'
   tempban:
     player:
-      disallowed: '&6Вы были забанены навсегда за &4[reason] \n&6Бан истекает [expires] \nИспользуйте пин [pin] для апелляции на \nhttps://bans.nova-network.systems/'
+      disallowed: '\n&6Вы были забанены по причине &4[reason] \n&6Бан истекает [expires] \nИспользуйте пин &e[pin] для апелляции на \n&bhttps://bans.nova-network.systems/'
       kick: '&6You have been temporarily banned for &4[reason]'
       dateTimeFormat: yyyy-MM-dd HH:mm:ss
     notify: '&6[player] забанен на всегда на [expires] админом [actor] по причине &4[reason]'
