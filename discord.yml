@@ -1,0 +1,61 @@
+# Requires DiscordSRV for Bukkit and MagiBridge for Sponge
+enabled: false
+messagesFromActor: true
+punishments:
+  ban:
+    channel: 1002613846004998245
+    message: '[player] has been permanently banned by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  tempban:
+    channel: 1002613846004998245
+    message: '[player] has been temporarily banned for [expires] by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  unban:
+    channel: 1002613846004998245
+    message: '[player] has been unbanned by [actor] for [reason]'
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  banip:
+    channel: 1002613846004998245
+    message: '[ip] has been permanently banned by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  tempbanip:
+    channel: 1002613846004998245
+    message: '[ip] has been temporarily banned for [expires] by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  unbanip:
+    channel: 1002613846004998245
+    message: '[ip] has been unbanned by [actor] for [reason]'
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  kick:
+    channel: 1002613846004998245
+    message: '[player] has been kicked by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  mute:
+    channel: 1002613846004998245
+    message: '[player] has been permanently muted by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  tempmute:
+    channel: 1002613846004998245
+    message: '[player] has been temporarily muted for [expires] by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  unmute:
+    channel: 1002613846004998245
+    message: '[player] has been unmuted by [actor] for [reason]'
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  warning:
+    channel: 1002613846004998245
+    message: '[player] has been warned by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
+  report:
+    channel: 1002613846004998245
+    message: '[player] has been reported by [actor] for [reason]'
+    ignoreSilent: true
+    dateTimeFormat: dd-MM-yyyy HH:mm:ss
